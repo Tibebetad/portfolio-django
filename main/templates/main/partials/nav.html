@@ -1,0 +1,38 @@
+{% load static %}
+<!-- ================================
+Start Navigation Bar
+================================= -->
+<header>
+    <div>
+          <h3 class="float-md-start mb-0 fon">TI3E3E</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <li class="nav-item ppp">
+                <a href="{%url 'main:home'%}" target="_self">
+                    <img ismap src="{% static 'images/home.png'%}"     width="35" height="35" />
+                </a>
+            </li>
+            <li class="nav-item ppp">
+                <a href="{%url 'main:portfolios' %}" target="_self">
+                    <img ismap src="{% static 'images/profile.png'%}"     width="35" height="35" />
+                </a>
+            </li>
+            <li class="nav-item ppp">
+                <a href="{% url 'main:blogs' %}" target="_self">
+                    <img ismap src="{% static 'images/portfolio.png'%}"     width="35" height="35" />
+                </a>
+            </li>
+            <li class="nav-item ppp">
+                <a href="{%url 'main:contact'%}" target="_self">
+                    <img ismap src="{% static 'images/contact.png'%}"     width="35" height="35" />
+                </a>
+            </li>
+          </nav>
+        </div>
+
+
+
+
+</header>
+<!-- ================================
+End Navigation Bar
+================================= -->
